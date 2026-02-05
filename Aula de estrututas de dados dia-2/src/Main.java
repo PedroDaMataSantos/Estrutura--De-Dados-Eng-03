@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String [] args){
-
+        ImprimirPrimitivos();          
+    }
+    private static void ImprimirPrimitivos(){
         //Inteiros
         byte b = 10;
         short s = 100;
@@ -26,6 +28,9 @@ public class Main {
                 "\n" + c+
                 "\n" + bool  );
 
+        
     }
+    
 }
+
 
