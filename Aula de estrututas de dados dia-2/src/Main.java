@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String [] args){
-        ImprimirPrimitivos();          
+        ImprimirPrimitivos();
     }
     private static void ImprimirPrimitivos(){
         //Inteiros
@@ -20,17 +20,17 @@ public class Main {
         boolean bool = true;
 
 
-        System.out.print(b + "\n" + i +
-                "\n" + s+
-                "\n" + l +
-                "\n" + f+
-                "\n" + d+
-                "\n" + c+
-                "\n" + bool  );
+        System.out.print("byte: "+b +
+                "\n" + "int: "+i +
+                "\n" + "short: "+ s+
+                "\n" + "long: " +l +
+                "\n" + "float: "+f+
+                "\n" + "double: "+d+
+                "\n" + "char: "+c+
+                "\n" + "boolean: "+bool  );
 
-        
+
     }
-    
-}
 
+}
 
